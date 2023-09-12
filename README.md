@@ -246,7 +246,6 @@ autocomplete — it will generate an empty "public static void main" (psvm) meth
 appear in the autocomplete, but `FizzBuzz.main` does! If you wanted to be able to call the helper from
 inside `Main.java`, you would need to change the access modifier on the helper.
 It turns out that IntelliJ can help us out with this too!
-
 ### Task 3.1: Changing access modifiers using IntelliJ
 
 - [ ] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
