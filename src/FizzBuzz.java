@@ -10,7 +10,7 @@ class FizzBuzz {
 
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         boolean x3 = i % 3 == 0;
         boolean x5 = i % 5 == 0;
 
@@ -28,5 +28,9 @@ class FizzBuzz {
         }
         i++;
         return i;
+    }
+
+    public static void mainCaller() {
+        main(null);
     }
 }
